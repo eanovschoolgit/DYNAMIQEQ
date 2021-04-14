@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptFloatingTile" id="FloatingTile3" x="75" y="105" ContentType="AudioAnalyser"
+             bgColour="16777215" itemColour="1080753920" itemColour2="16711680"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#13;&#10;  &quot;Index&quot;: 2&#13;&#10;}"
+             width="655" height="291" itemColour3="4294967295"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="75" y="104" ContentType="FilterDisplay"
+             bgColour="3355443" itemColour="4278239743" itemColour2="4278239743"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;ParametriqEQ_X&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="657" height="291" itemColour3="15335424" textColour="16777215"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="75" y="104" ContentType="FilterDisplay"
+             bgColour="3355443" itemColour="4278242047" itemColour2="16777215"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Parametriq&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="657" height="291" itemColour3="4293656576" textColour="16777215"/>
+  <Component type="ScriptImage" id="Image1" x="0" y="0" width="1000" height="500"
+             fileName="{PROJECT_FOLDER}back-4.png"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter" x="780"
+             y="111" max="0" numStrips="128" width="11" height="288" middlePosition="-7"
+             filmstripImage="{PROJECT_FOLDER}128 reduc 3.png" min="-100"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter1" x="800"
+             y="104" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter2" x="820"
+             y="104" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter3" x="845"
+             y="104" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter4" x="867"
+             y="101" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter5" x="889"
+             y="101" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter6" x="907"
+             y="101" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="DYNA_Compressor_Reduction_Meter7" x="924"
+             y="101" processorId="DYNA1" min="-80" max="0" filmstripImage="{PROJECT_FOLDER}128 reduc 3.png"
+             numStrips="128" width="15" height="296" middlePosition="-7"/>
+  <Component type="ScriptSlider" id="Band1_Freq" x="776" y="401" mode="Frequency"
+             min="20" max="20000" stepSize="1" suffix=" Hz" middlePosition="1500"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="25" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band2_Freq" x="796" y="401" mode="Frequency"
+             min="50" max="110" stepSize="1" suffix=" Hz" middlePosition="80"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             text="" defaultValue="50" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band3_Freq" x="818" y="401" mode="Frequency"
+             min="110" max="240" stepSize="1" suffix=" Hz" middlePosition="175"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="110" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band4_Freq" x="839" y="401" mode="Frequency"
+             min="240" max="650" stepSize="1" suffix=" Hz" middlePosition="445"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="240" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band5_Freq" x="860" y="401" mode="Frequency"
+             min="650" max="1700" stepSize="1" suffix=" Hz" middlePosition="1500"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="650" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band6_Freq" x="882" y="401" mode="Frequency"
+             min="1700" max="4000" stepSize="1" suffix=" Hz" middlePosition="2850"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="1700" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band7_Freq" x="903" y="401" mode="Frequency"
+             min="4000" max="10000" stepSize="1" suffix=" Hz" middlePosition="7000"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4000" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band8_Freq" x="924" y="401" mode="Frequency"
+             min="20" max="20000" stepSize="1" suffix=" Hz" middlePosition="1500"
+             numStrips="128" width="21" height="20" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="10000" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="Band8_Q" x="925" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band7_Q" x="904" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band6_Q" x="883" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band5_Q" x="861" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band4_Q" x="840" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band3_Q" x="819" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band2_Q" x="797" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="Band1_Q" x="777" y="425" min="0.1" max="8"
+             suffix=" Hz" middlePosition="4.05" numStrips="128" width="23"
+             height="23" scaleFactor="0.3" filmstripImage="{PROJECT_FOLDER}fq128.png"
+             defaultValue="4"/>
+  <Component type="ScriptSlider" id="FREQ0GAIN" x="776" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ1GAIN" x="797" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ2GAIN" x="819" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ3GAIN" x="840" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ4GAIN" x="861" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ5GAIN" x="882" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ6GAIN" x="904" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptSlider" id="FREQ7GAIN" x="925" y="98" width="22"
+             height="305" numStrips="128" scaleFactor="1.02" middlePosition="0.5"
+             filmstripImage="{PROJECT_FOLDER}boutonvbertival128.png" min="-24"
+             max="24"/>
+  <Component type="ScriptImage" id="Image2" x="74" y="103" width="654" height="295"
+             fileName="{PROJECT_FOLDER}cache-eq.png" visible="0"/>
+  <Component type="ScriptButton" id="bandenable1" x="778" y="86" width="16"
+             height="16" isVertical="0" scaleFactor="0.08" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable2" x="799" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable3" x="821" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable4" x="842" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable5" x="864" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable6" x="884" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable7" x="906" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptButton" id="bandenable8" x="927" y="86" width="16"
+             height="16" scaleFactor="0.08" isVertical="0" filmstripImage="{PROJECT_FOLDER}band-enabled.png"/>
+  <Component type="ScriptLabel" id="Label1" x="401" y="5" width="143" height="70"
+             text="-7.27" fontSize="43" fontName="LEMON MILK" fontStyle="Bold"/>
+  <Component type="ScriptPanel" id="Panel1" x="80" y="1" width="629" height="152"
+             bgColour="4278190080" itemColour="4278190080" itemColour2="4278190080">
+    <Component type="ScriptSlider" id="DYNA_CTresh" x="0" y="28" max="0" processorId="DYNA"
+               parameterId="CompressorThreshold" min="-80" middlePosition="-40"
+               parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack" x="0" y="0" processorId="DYNA"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease" x="0" y="53" processorId="DYNA"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio" x="0" y="78" max="15" processorId="DYNA"
+               parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh1" x="100" y="28" max="0"
+               processorId="DYNA1" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack1" x="100" y="0" processorId="DYNA1"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease1" x="100" y="53" processorId="DYNA1"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio1" x="100" y="78" max="15"
+               processorId="DYNA1" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease2" x="200" y="53" processorId="DYNA2"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh2" x="200" y="28" max="0"
+               processorId="DYNA2" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack2" x="200" y="0" processorId="DYNA2"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio2" x="200" y="78" max="15"
+               processorId="DYNA2" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease3" x="268" y="53" processorId="DYNA3"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh3" x="268" y="28" max="0"
+               processorId="DYNA3" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack3" x="268" y="0" processorId="DYNA3"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio3" x="268" y="78" max="15"
+               processorId="DYNA3" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease4" x="347" y="53" processorId="DYNA4"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh4" x="347" y="28" max="0"
+               processorId="DYNA4" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack4" x="347" y="0" processorId="DYNA4"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio4" x="347" y="78" max="15"
+               processorId="DYNA4" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease5" x="427" y="53" processorId="DYNA5"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh5" x="427" y="28" max="0"
+               processorId="DYNA5" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack5" x="427" y="0" processorId="DYNA5"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio5" x="427" y="78" max="15"
+               processorId="DYNA5" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack6" x="498" y="0" processorId="DYNA6"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh6" x="498" y="28" max="0"
+               processorId="DYNA6" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease6" x="498" y="53" processorId="DYNA6"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio6" x="498" y="78" max="15"
+               processorId="DYNA6" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CAttack7" x="578" y="0" processorId="DYNA7"
+               parameterId="CompressorAttack" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="29" height="29" min="0.01"
+               max="100" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CTresh7" x="578" y="28" max="0"
+               processorId="DYNA7" parameterId="CompressorThreshold" min="-80"
+               middlePosition="-40" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="32" height="26"/>
+    <Component type="ScriptSlider" id="DYNA_CRelease7" x="578" y="53" processorId="DYNA7"
+               parameterId="CompressorRelease" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}fq128.png"
+               numStrips="128" scaleFactor="0.4" width="27" height="25" min="0.01"
+               max="300" middlePosition="10"/>
+    <Component type="ScriptSlider" id="DYNA_CRatio7" x="578" y="78" max="15"
+               processorId="DYNA7" parameterId="CompressorRatio" min="1.1" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}fq128.png" numStrips="128" scaleFactor="0.4"
+               width="27" height="26"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler" x="0" y="221" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp1" x="100" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp" x="0" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler1" x="100" y="220" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler2" x="200" y="220" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp2" x="200" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler3" x="268" y="220" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp3" x="268" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler4" x="347" y="218" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp4" x="347" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler5" x="433" y="214" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp5" x="433" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler6" x="504" y="215" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp6" x="504" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CEnabler7" x="584" y="221" parentComponent="Panel1"
+               filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+               scaleFactor="0.2" width="50" height="42"/>
+    <Component type="ScriptButton" id="DYNA_CMakeUp7" x="584" y="267" processorId="DYNA"
+               parameterId="CompressorMakeup" parentComponent="Panel1" filmstripImage="{PROJECT_FOLDER}band-enabled.png"
+               isVertical="0" scaleFactor="0.2" width="50" height="42"/>
+  </Component>
+  <Component type="ScriptButton" id="Button1" x="78" y="412" width="81" height="25"/>
+  <Component type="ScriptLabel" id="Label2" x="745" y="398" text="FQ" alignment="left"
+             width="25" height="26"/>
+  <Component type="ScriptLabel" id="Label3" x="747" y="422" text="Q" alignment="left"
+             width="25" height="26"/>
+  <Component type="ScriptLabel" id="Label4" x="776" y="66" text="ENABLE BAND"
+             width="169" height="23"/>
+  <Component type="ScriptButton" id="Invert" x="779" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert1" x="800" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert2" x="822" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert3" x="843" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert4" x="864" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert5" x="885" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert6" x="907" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptButton" id="Invert7" x="928" y="45" height="22" width="22"
+             filmstripImage="{PROJECT_FOLDER}band-enabled.png" isVertical="0"
+             scaleFactor="0.08"/>
+  <Component type="ScriptLabel" id="Label5" x="773" y="24" text="INVERT BAND"
+             width="169" height="23"/>
+</ContentProperties>
