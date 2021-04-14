@@ -1,1 +1,1 @@
-# DYNAMIQEQ
+afin de  construi dynamiq eq vous aurez besoin de xcode, hise visulatudio, projucer. tous les scripts présent ainsi que dynbamiq eq est publié sous la license GPL. changez la marque si vous voulez compile  ce dernier.
